@@ -201,11 +201,11 @@ module openconfig-if-aggregate {
     description "Adds LAG configuration to the interface module";
 
     uses aggregation-logical-top {
-      when "oc-if:state/oc-if:type = 'ift:ieee8023adLag' or " +
-        "oc-if:state/oc-if:type = 'oc-ift:IF_AGGREGATE'" {
-        description
-          "active when the interface is set to type LAG";
-      }
+      /* when "oc-if:state/oc-if:type = 'ift:ieee8023adLag' or " + */
+      /*   "oc-if:state/oc-if:type = 'oc-ift:IF_AGGREGATE'" {      */
+      /*   description                                             */
+      /*     "active when the interface is set to type LAG";       */
+      /* }                                                         */
     }
   }
 

@@ -433,11 +433,11 @@ module openconfig-vlan {
       "Adds configuration and state for routed VLAN interfaces";
 
     uses vlan-routed-top {
-      when "current()/oc-if:config/oc-if:type = 'ift:l3ipvlan'" {
-      description
-        "Active when the interface is a logical interface providing
-        L3 routing for VLANs";
-      }
+      /* when "current()/oc-if:config/oc-if:type = 'ift:l3ipvlan'" {   */
+      /* description                                                   */
+      /*   "Active when the interface is a logical interface providing */
+      /*   L3 routing for VLANs";                                      */
+      /* }                                                             */
     }
   }
 
